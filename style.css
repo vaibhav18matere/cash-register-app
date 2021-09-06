@@ -91,13 +91,16 @@ input::-webkit-inner-spin-button {
 }
 
 .change-table td, .change-table th {
-  border: 1px solid #ddd;
+  border: 5px solid #ddd;
   padding: 8px;
+  background-color: #f2f2f2;
+}
+.change-table td:hover{
+  background-color: #aba4a4;
 }
 
-.change-table tr:nth-child(even){background-color: #f2f2f2;}
 
-.change-table tr:hover {background-color: #ddd;}
+
 
 .change-table th {
   padding-top: 12px;

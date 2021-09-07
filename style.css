@@ -114,11 +114,27 @@ input::-webkit-inner-spin-button {
   background-color: #aba4a4;
 }
 
-
-
-
 .change-table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
 }
+
+/* making the table responsive */
+
+.result_section{
+  min-height: .01%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .result_section {
+      width: 100%;
+      margin-bottom: 15px;
+      overflow-y: hidden;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      border: 1px solid #ddd;
+  }
+  .result_section > .change-table {
+      margin-bottom: 0;
+  }

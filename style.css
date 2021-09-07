@@ -9,20 +9,21 @@
   body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    background: #dfdfdf;   
+    background: #dfdfdf;
+    background-color: rgb(173, 193, 193);   
   }
 
 .container{
     display: flex;
     flex-direction: column;
-    margin: 0px auto ;
+    margin: 0 auto ;
     width: 100%;
     padding: 0 20vw;
 }
 
 .container h1{
   height: 21vh;
-    font-size: 3rem;
+    font-size: 5vw;
     line-height: 18vh;
 }
 
@@ -31,20 +32,23 @@
   border-radius: 0.8rem;
   height: 75vh;
   padding: 2rem;
+  background: rgb(109 113 248);
 }
 
 .input_section{
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 30vh;
 }
-
+.input_section .description{
+  font-size: 2vw;
+}
 
 .input_section div{  
-  margin: 2rem 1rem 1rem 1rem;;
+  margin: 1rem;
 }
 
 /* to remove arrows in input section */
@@ -63,7 +67,7 @@ input::-webkit-inner-spin-button {
     font-size: 1rem;
     margin: 0 0.5rem;
     font-weight: bold;
-    color: darkblue;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
 }
 
@@ -117,6 +121,4 @@ input::-webkit-inner-spin-button {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
-  color: white;
 }

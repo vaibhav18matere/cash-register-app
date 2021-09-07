@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cash Register App</title>
+    <title>Cashify</title>
 </head>
 <body>
     <div class="container">
         <h1 class="heading">
-            Cash Register Manager
+            Cashify
         </h1>
         <div class="section">
             <div class="input_section">
                 <p class="description">
-                    Enter the bill amount and cash given by customer and know minimum no. of notes to return ! 
+                    Know minimum no. of notes to be return
                 </p>
                 <div>
-                    <label for="bill-amount"> Bill Amount : </label>
-                    <input id="bill-amount" type="number"  placeholder="Enter bill-amount">
+                    <label for="bill-amount"> Total bill amount : </label>
+                    <input id="bill-amount" type="number"  placeholder="enter bill amount here">
                 </div>
                 
-                 <div>  <label for="cash-given">Cash Given : </label>
-                    <input id="cash-given" type="number" placeholder="Enter cash-given">
+                 <div>  <label for="cash-given">Cash given : </label>
+                    <input id="cash-given" type="number" placeholder="enter cash given here">
                  </div>
                  <div> <button id="check-button" >Check</button>
                     <button id="check-button" onclick={location.reload()}>Reset</button></div>
@@ -35,7 +35,7 @@
                 <table class="change-table">
                     <caption>Return Change</caption>
                     <tr>
-                        <th>No. Of Notes</th>
+                        <th>No.of notes</th>
                         <td class="no-of-notes"></td>
                         <td class="no-of-notes"></td>
                         <td class="no-of-notes"></td>

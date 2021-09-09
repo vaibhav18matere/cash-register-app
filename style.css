@@ -139,3 +139,22 @@ input::-webkit-inner-spin-button {
       margin-bottom: 0;
   }
 }
+/* footer styling */
+footer p {
+  font-size: large;
+  margin-top: 1rem;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a, img, li{
+  display: inline;
+  margin: 0.25rem;
+}
+
+img {
+  width: 40px;
+  padding: 0.5rem 0.2rem;
+}  

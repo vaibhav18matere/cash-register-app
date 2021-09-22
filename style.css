@@ -51,6 +51,9 @@
   margin: 1rem;
 }
 
+.cash-given-div{
+  display: none;
+}
 /* to remove arrows in input section */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -73,7 +76,7 @@ input::-webkit-inner-spin-button {
 
 .result_section{
   border-radius: 0.5rem;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 30vh;
